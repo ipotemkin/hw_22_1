@@ -4,7 +4,7 @@ class Person:
         self.room_num = room_num
 
     def get_person_room(self):
-        return self.planet.get_contry().get_city().get_street().get_room().get_name()
+        return self.room_num
 
     def get_city_population(self):
-        return self.planet.get_contry().get_city().population()
+        return self.city_popultaion
